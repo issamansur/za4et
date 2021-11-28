@@ -1,0 +1,13 @@
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\bin\Debug\netcoreapp3.1\EmployeeProject.exe
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\bin\Debug\netcoreapp3.1\EmployeeProject.deps.json
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\bin\Debug\netcoreapp3.1\EmployeeProject.runtimeconfig.json
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\bin\Debug\netcoreapp3.1\EmployeeProject.runtimeconfig.dev.json
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\bin\Debug\netcoreapp3.1\EmployeeProject.dll
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\bin\Debug\netcoreapp3.1\EmployeeProject.pdb
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\obj\Debug\netcoreapp3.1\EmployeeProject.csproj.AssemblyReference.cache
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\obj\Debug\netcoreapp3.1\EmployeeProject.AssemblyInfoInputs.cache
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\obj\Debug\netcoreapp3.1\EmployeeProject.AssemblyInfo.cs
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\obj\Debug\netcoreapp3.1\EmployeeProject.csproj.CoreCompileInputs.cache
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\obj\Debug\netcoreapp3.1\EmployeeProject.dll
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\obj\Debug\netcoreapp3.1\EmployeeProject.pdb
+C:\Users\Hi-Tech\Desktop\working_space\za4et\EmployeeProject\EmployeeProject\obj\Debug\netcoreapp3.1\EmployeeProject.genruntimeconfig.cache

@@ -6,7 +6,7 @@ namespace EmployeeProject
 {
     public class Employee
     {
-        //class
+        // class
         public int ID { get; set; }
         public string surname;
         public string name;
@@ -14,12 +14,13 @@ namespace EmployeeProject
         public string department;
         public int tel;
 
-        //starting data
+        // starting data
         private string[] surnames = new string[] { "Bradu", "Makalich", "Mansur", "Moiseenko", "Yretya", "Ptahin" };
         private string[] names = new string[] { "Alexey", "Denis", "Issa", "Vitaliy", "Vadim", "Sasha" };
         private string[] names_of_father = new string[] { "Alexeevich", "Denisovich", "Alexandrovich", "Vitalievich", "Vadimovich" };
         private string[] departments = new string[] { "Бухгалтерия", "Отдел кадров", "Справочная"};
 
+        // constructor
         public Employee()
         {
             Random rand = new Random();
@@ -30,6 +31,7 @@ namespace EmployeeProject
             department = departments[new Random().Next(0, departments.Length)];
         }
 
+        // method for outputting
         public void GetInfo()
         {
             Console.WriteLine("{0,4} | {1,10} | {2,10} | {3,15} | {4,15} | {5}",

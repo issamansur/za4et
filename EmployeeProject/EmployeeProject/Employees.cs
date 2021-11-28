@@ -5,6 +5,7 @@ using System.Linq;
 
 namespace EmployeeProject
 {
+    // IEnumerable for foreach
     class Employees : IEnumerable
     {
         public IEnumerator GetEnumerator()
@@ -13,9 +14,10 @@ namespace EmployeeProject
         }
 
 
-    //list of objects
-    List<Employee> employees = new List<Employee>();
+        // list of objects
+        List<Employee> employees = new List<Employee>();
 
+        // constructor with randomize ID and tel of employees
         public Employees(int x)
         {
             for (int i = 1; i <= x; i++)
@@ -29,15 +31,15 @@ namespace EmployeeProject
             }
         }
 
-
-        public List<Employee> SortByN(int id)
+        // a method for sorting a table by column number
+        public List<Employee> SortByN(int number)
         {
             var employeesSorted = employees.OrderBy(t => t);
 
-            switch (id)
+            switch (number)
             {
                 case 0:
-                    employeesSorted = employees.OrderBy(t =>t.ID);
+                    employeesSorted = employees.OrderBy(t => t.ID);
                     break;
                 case 1:
                     employeesSorted = employees.OrderBy(t => t.surname);
@@ -61,6 +63,31 @@ namespace EmployeeProject
             foreach (Employee figure in employeesSorted)
                 employees.Add(figure);
             return employees;
+        }
+
+        // method for getting info about
+        // ONE employee by his id
+        public Employee OutputById(int id)
+        {
+            IEnumerable<Employee> employeesSorted = employees.Where(t => t.ID == id);
+
+            Employee employee = employeesSorted.FirstOrDefault();
+
+            return employee;
+        }
+
+        // method for getting info about
+        // department and count of employees
+        // and outputing
+        public void CountEmployeesByDepartment()
+        {
+            var info = employees.GroupBy(t => t.department)
+                            .Select(g => new { Name = g.Key, Count = g.Count() });
+
+            foreach (var info_obj in info)
+            {
+                Console.WriteLine($"{info_obj.Name} : {info_obj.Count}");
+            }
         }
     }
 }
